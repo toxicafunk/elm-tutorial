@@ -3,6 +3,9 @@
     { "id": 1, "name": "Sally", "level": 2 },
     { "id": 2, "name": "Lance", "level": 1 },
     { "id": 3, "name": "Aki", "level": 3 },
-    { "id": 4, "name": "Maria", "level": 4 }
+    { "id": 4, "name": "Maria", "level": 4 },
+    { "id": 5, "name": "Charly", "level": 4 },
+    { "id": 6, "name": "Nacho", "level": 1 },
+    { "id": 7, "name": "Fran", "level": 2 }
   ]
 }

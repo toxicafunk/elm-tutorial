@@ -1,10 +1,11 @@
 module Main exposing (..)
 
 import Html.App
-import Messages exposing (Msg)
+import Messages exposing (..)
 import Models exposing (Model, initialModel)
 import View exposing (view)
 import Update exposing (update)
+import Players.Commands exposing (fetchAll)
 
 
 -- MODEL
@@ -12,7 +13,7 @@ import Update exposing (update)
 
 init : ( Model, Cmd Msg )
 init =
-    ( initialModel, Cmd.none )
+    ( initialModel, Cmd.map PlayersMsg fetchAll )
 
 
 
